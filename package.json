@@ -1,0 +1,26 @@
+{
+  "name": "queueInserter",
+  "version": "1.0.0",
+  "description": "Another my very own function",
+  "main": "index.js",
+  "scripts": {
+    "test": "cd tests && mocha --reporter nyan mainSpec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/raabbajam/queueInserter.git"
+  },
+  "author": "Muhammad Abdul Jabbaar <muhammadabduljabbaar@gmail.com> (http://mabdulj.jasaprogrammer.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/raabbajam/queueInserter/issues"
+  },
+  "homepage": "https://github.com/raabbajam/queueInserter",
+  "devDependencies": {
+    "chai": "^1.9.2"
+  },
+  "dependencies": {
+    "kue": "^0.8.9",
+    "promise": "^6.0.1"
+  }
+}
